@@ -44,7 +44,7 @@ const Graph = () => {
 
         // transaction logs
       
-  function formatTimestampToDate(timestamp) {
+  function formatTimestampToDate(timestamp:any) {
     const options: Intl.DateTimeFormatOptions = {
       day: "numeric",
       month: "short",

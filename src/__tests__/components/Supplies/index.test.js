@@ -64,9 +64,7 @@ describe('Chart component', () => {
   });
 });
 
-import { render, screen, fireEvent } from "@testing-library/react";
-import { ThemeProvider } from "next-themes";
-import { ThemeSwitcher } from "./ThemeSwitcher";
+
 
 describe('ThemeSwitcher component', () => {
   test('renders ThemeSwitcher component and switches theme', () => {
