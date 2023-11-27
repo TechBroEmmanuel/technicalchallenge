@@ -48,7 +48,7 @@ function getChargeSymbol(type: string): string {
 async function Home() {
   const { data } = await fetchLatestTransactions();
   // convert time stamp
-  const formatDate = (timestamp) => {
+  const formatDate = (timestamp:any) => {
     const options: Intl.DateTimeFormatOptions = {
       year: "numeric",
       month: "long",
